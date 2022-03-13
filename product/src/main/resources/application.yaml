@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+logging:
+  level:
+    root: WARN
+    com:
+      ecom:
+        product: TRACE
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
